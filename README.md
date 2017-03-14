@@ -98,6 +98,23 @@ const clayEntity = require('clay-entity')
 
 <!-- Section from "doc/guides/02.Usage.md.hbs" End -->
 
+<!-- Section from "doc/guides/03.Functions.md.hbs" Start -->
+
+<a name="section-doc-guides-03-functions-md"></a>
+
+Functions
+---------
+
+Available functions
+
+| Signature | Description |
+| ---- | ----------- |
+| `parse(ref) -> Object` | Parse ref |
+| `refTo(resource, id) -> string` | Resolve ref to resource entity |
+
+
+<!-- Section from "doc/guides/03.Functions.md.hbs" End -->
+
 
 <!-- Sections Start -->
 
