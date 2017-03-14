@@ -74,7 +74,7 @@ Usage
 ```javascript
 'use strict'
 
-const { parse, refTo } = require('clay-entity-ref')
+const { parse, refTo } = require('clay-resource-ref')
 const clayResource = require('clay-resource')
 const clayEntity = require('clay-entity')
 
