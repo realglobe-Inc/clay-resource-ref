@@ -5,7 +5,6 @@
 'use strict'
 
 const refTo = require('../lib/ref_to.js')
-const clayResource = require('clay-resource')
 const clayEntity = require('clay-entity')
 const { ok } = require('assert')
 const co = require('co')
@@ -22,10 +21,11 @@ describe('ref-to', function () {
   }))
 
   it('Ref to', () => co(function * () {
-    let User = clayResource('User')
-    let user = clayEntity({})
-    let ref = refTo(User, user.id)
-    ok(ref)
+    // const clayResource = require('clay-resource')
+    // let User = clayResource('User')
+    // let user = clayEntity({})
+    // let ref = refTo(User, user.id)
+    // ok(ref)
   }))
 })
 
