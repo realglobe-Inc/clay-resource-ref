@@ -1,6 +1,6 @@
 {
   "name": "clay-resource-ref",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Resource referenece for cleay entity",
   "main": "lib",
   "scripts": {
