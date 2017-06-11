@@ -11,10 +11,8 @@ const clayEntity = require('clay-entity')
 
   let ref = refTo(Org, org01.id)
   console.log(ref) // -> Org#1
-  user01.org = ref
+  user01.org = { $ref: ref }
 
-  let parsed = parse(user01.org)
+  let parsed = parse(user01.org.$ref)
   console.log(parsed) // -> { resource: 'Org', id: '1' }
 }
-
-
