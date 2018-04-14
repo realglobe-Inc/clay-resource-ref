@@ -1,7 +1,7 @@
 {
   "name": "clay-resource-ref",
   "version": "2.0.2",
-  "description": "Resource referenece for cleay entity",
+  "description": "Resource refs for clay entity",
   "main": "lib",
   "browser": "shim/browser",
   "scripts": {
@@ -43,7 +43,7 @@
     "sugos-travis": "^2.0.7"
   },
   "engines": {
-    "node": ">=6",
-    "npm": ">=4"
+    "node": ">=8",
+    "npm": ">=5"
   }
 }
