@@ -25,7 +25,7 @@
   "dependencies": {
     "clay-entity": "^2.0.4",
     "clay-id": "^3.0.2",
-    "clay-resource-name": "^4.0.1"
+    "clay-resource-name": "^4.0.4"
   },
   "devDependencies": {
     "ababel": "^4.0.8",
