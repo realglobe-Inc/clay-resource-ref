@@ -1,6 +1,6 @@
 {
   "name": "clay-resource-ref",
-  "version": "2.0.4",
+  "version": "2.0.5",
   "description": "Resource refs for clay entity",
   "main": "lib",
   "browser": "shim/browser",
@@ -23,12 +23,12 @@
   },
   "homepage": "https://github.com/realglobe-Inc/clay-resource-ref#readme",
   "dependencies": {
-    "clay-entity": "^2.0.4",
+    "clay-entity": "^2.1.5",
     "clay-id": "^3.0.2",
-    "clay-resource-name": "^4.0.4"
+    "clay-resource-name": "^4.0.5"
   },
   "devDependencies": {
-    "ababel": "^4.0.8",
+    "ababel": "^5.0.3",
     "aglob": "^3.0.1",
     "amocha": "^5.0.0",
     "ape-doc": "^2.0.4",
@@ -36,9 +36,9 @@
     "ape-releasing": "^4.0.4",
     "ape-tasking": "^4.0.9",
     "ape-tmpl": "^6.0.10",
-    "ape-updating": "^4.1.1",
+    "ape-updating": "^5.0.1",
     "co": "^4.6.0",
-    "coz": "^7.0.1",
+    "coz": "^7.0.2",
     "injectmock": "^2.0.0",
     "sugos-travis": "^2.0.7"
   },
